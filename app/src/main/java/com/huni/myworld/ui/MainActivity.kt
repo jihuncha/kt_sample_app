@@ -1,7 +1,7 @@
 package com.huni.myworld.ui
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.huni.myworld.R
 
 class MainActivity : AppCompatActivity() {
