@@ -1,7 +1,7 @@
 package com.huni.myworld
 
 import android.app.Application
-import com.huni.myworld.module.myDiModule
+import com.huni.myworld.di.myDiModule
 import org.koin.android.ext.android.startKoin
 
 class MyApp : Application(){
