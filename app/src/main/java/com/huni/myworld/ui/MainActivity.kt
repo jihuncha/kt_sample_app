@@ -2,19 +2,23 @@ package com.huni.myworld.ui
 
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.huni.myworld.R
 import com.huni.myworld.base.BaseKotlinActivity
 import com.huni.myworld.databinding.ActivityMainBinding
 import com.huni.myworld.viewmodel.MainViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import com.huni.myworld.ui.MainSearchRecyclerViewAdapter
 import org.koin.android.ext.android.inject
+//import kotlinx.android.synthetic.main.activity_main.*activity_main
+import com.huni.myworld.ui.MainSearchRecyclerViewAdapter
 
 class MainActivity : BaseKotlinActivity<ActivityMainBinding, MainViewModel>() {
     private val TAG: String = MainActivity::class.java.simpleName
 
     override val layoutResourceId: Int
         get() = R.layout.activity_main
+//    override val layoutResourceId: Int = R.layout.activity_main
 //    override val viewModel: MainViewModel()
     override val viewModel: MainViewModel by viewModel()
 
