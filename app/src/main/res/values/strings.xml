@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">kt_sample</string>
+
+    <string name="key_kakao">5a17a924eca098dbed22e0a1091f0c69</string>
 </resources>
