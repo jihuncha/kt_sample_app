@@ -32,9 +32,9 @@ android {
     }
 
     // binding
-    dataBinding {
-        enabled true
-    }
+//    dataBinding {
+//        enabled true
+//    }
 
     buildFeatures {
         dataBinding true

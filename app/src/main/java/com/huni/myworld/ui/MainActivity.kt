@@ -10,7 +10,6 @@ import com.huni.myworld.databinding.ActivityMainBinding
 import com.huni.myworld.viewmodel.MainViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.android.ext.android.inject
-//import kotlinx.android.synthetic.main.activity_main.*activity_main
 import com.huni.myworld.ui.MainSearchRecyclerViewAdapter
 
 class MainActivity : BaseKotlinActivity<ActivityMainBinding, MainViewModel>() {
