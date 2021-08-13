@@ -1,5 +1,6 @@
 package com.huni.myworld.base
 
+import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.disposables.Disposable
@@ -32,4 +33,24 @@ open class BaseKotlinViewModel: ViewModel() {
         compositeDisposable.clear()
         super.onCleared()
     }
+
+//    /**
+//     * 스낵바를 보여주고 싶으면 viewModel 에서 이 함수를 호출
+//     */
+//    fun showSnackbar(stringResourceId:Int) {
+//        snackbarMessage.value = stringResourceId
+//    }
+//    fun showSnackbar(str:String){
+//        snackbarMessageString.value = str
+//    }
+//
+//    /**
+//     * BaseKotlinActivity 에서 쓰는 함수
+//     */
+//    fun observeSnackbarMessage(lifeCycleOwner: LifecycleOwner, ob:(Int) -> Unit){
+//        snackbarMessage.observe(lifeCycleOwner, ob)
+//    }
+//    fun observeSnackbarMessageStr(lifeCycleOwner: LifecycleOwner, ob:(String) -> Unit) {
+//        snackbarMessageString.observe(lifeCycleOwner, ob)
+//    }
 }
