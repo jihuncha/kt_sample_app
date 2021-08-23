@@ -11,6 +11,7 @@ import com.huni.myworld.viewmodel.MainViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.android.ext.android.inject
 import com.huni.myworld.ui.MainSearchRecyclerViewAdapter
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseKotlinActivity<ActivityMainBinding, MainViewModel>() {
     private val TAG: String = MainActivity::class.java.simpleName
